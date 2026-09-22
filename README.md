@@ -12,6 +12,13 @@ Turns raw sales, shipment and inventory data into decision-ready dashboards for 
 - **Python (pandas)** — synthetic data generation
 
 ## Files
-- `*.sql` — ETL and warehouse build scripts
-- `*.pbix` — Power BI report
+- `MediFlow SQL.sql` — ETL and data-warehouse build scripts
+- `MediFlow BI.pbix` — Power BI report (data model, DAX, four dashboards)
+- `generate_operational_data.py` — Python script that generates the synthetic data
+- `MediFlow BI report.docx` — full project report
+- `pharma-data - Sample.csv` — sample of the sales data
+- `raw_inventory.csv`, `raw_shipments.csv` — synthetic inventory and shipment data
+
+## Data
+`pharma-data - Sample.csv` is a small sample of the sales data. The full sales dataset is from Kaggle: [https://www.kaggle.com/datasets/krishangupta33/pharmaceutical-company-wholesale-retail-data?utm_source]. Shipment and inventory data are synthetic, generated in Python by `generate_operational_data.py`.
   
